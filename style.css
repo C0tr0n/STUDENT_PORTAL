@@ -1,0 +1,158 @@
+/*
+  
+
+#logo{
+  font-size: 35px; 
+  font-weight: 600; 
+  color: green;
+  font-weight: bold;
+}
+
+.links{    
+    
+    
+    
+}
+
+.button{
+    background-color: rgb(104, 26, 26); margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+
+    color: white; font-weight: bold; font-size: 15px;
+}
+
+*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS';
+  box-sizing: border-box;
+}
+
+body{
+  background: #ecf0f3;
+}
+
+nav {
+  width: 100%;
+
+  /* padding: 12px 0; */
+  background: rgb(247, 248, 249);
+  box-shadow: -3px -3px 7px #ffffff,
+              3px 3px 5px #ceced1,
+              inset -3px -3px 7px #ffffff,
+              inset 3px 3px 5px #ceced1;
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+  /* margin: auto; */
+  /* padding: 0 20px; */
+  justify-content: space-between;
+}
+
+.menu #logo {
+  font-size: 2rem;
+
+  font-weight: 600;
+  text-decoration: none;
+  color: #31344b;
+  margin-right: auto;
+  /* padding: 48rem; */
+}
+
+.menu ul{
+ display: flex;
+ list-style: none;
+}
+
+.menu ul a{
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-flex;
+  color: #31344b;
+  font-weight: 400;
+  /* padding: 10px 12px; */
+  /* box-shadow: -3px -3px 7px #ffffff,
+               3px 3px 5px #ceced1; */
+  position: relative;
+  
+}
+
+.menu ul a:hover::before{
+  content: '';
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu ul a:hover{
+  color: #3498db;
+
+}
+
+#img {
+  max-width: 80px;
+  max-height: 80px;
+  margin-right: 10px;
+}
+
+label .fas {
+  display: none;
+}
+
+@media(max-width: 720px){
+
+  .menu ul{
+    display: none;
+
+  }
+
+  .menu #logo{
+    margin-right: 0;
+    font-size: 1.5rem;
+  }
+
+  label .fas {
+    display: block;
+    padding: 5px;
+  }
+}
+
+/* Media query for smaller screens
+@media (max-width: 940px) {
+  #logo {
+    font-size: 20px;
+  }
+   
+  .menu ul{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 475px;
+    padding-top: 45px;
+    height: 100%;
+    background: #ecf0f3;
+    box-shadow: 0 5px 10px #b0b0b5;
+    z-index: 12;
+  }
+
+    background: #ecf0f3;
+.menu ul a{
+  font-size: 23px;
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  box-shadow: none;
+  text-align: center;
+}
+.menu ul a:hover::before{
+  box-shadow: none;
+}
+} */
+
